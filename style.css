@@ -1,0 +1,55 @@
+h5 {
+  margin-bottom: 0.5em;
+}
+
+button {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.note {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.yesError {
+  color: red;
+}
+.noError {
+  color: green;
+}
+
+/* Elm form style partly taken from hecrj/composable-form library example.
+ * */
+.elm-form > *:not(:last-child) {
+  margin-bottom: 1em;
+}
+
+.elm-form-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.elm-form-field > *:not(:last-child) {
+  margin-bottom: 0.5em;
+}
+
+input {
+  border: 1px solid #AAA;
+  padding: 0.5em;
+  font-size: 1.2em;
+  max-width: 300px;
+}
+
+.elm-form-field-error .elm-form-label {
+  color: red;
+}
+
+.elm-form-field-error input {
+  border: 1px solid red;
+}
+
+.elm-form-error {
+  color: red;
+}
+
+
